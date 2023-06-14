@@ -3,7 +3,7 @@ from admin import Admin
 from bank import Bank
 
 # Create instances
-user1 = User("John Doe", "john@example.com", "password123", "1234567890")
+user1 = User("Bill", "Bill@example.com", "password123", "1234567890")
 user1.create_account()
 
 # Create user account
@@ -23,7 +23,7 @@ user1.withdraw(100)
 user1.available_balance()
 print("---------------------")
 # Transfer
-user2 = User("Jane Smith", "jane@example.com", "password456", "0987654321")
+user2 = User("Elon", "Elon@example.com", "password456", "0987654321")
 user2.create_account()
 admin.create_account(user2)
 bank.create_account(user2)
